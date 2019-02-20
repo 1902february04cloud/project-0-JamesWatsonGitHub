@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
 
-'''
-This is your main script, this should call several other scripts within your packages.
-'''
+#James Watson
+#Project 0 
+#2/19/2019
+
+#imports
 from controller.controller import startBank
 
+#main function that calls controller
 def main():
-	#LOG_FORMAT = '%(levelname)s %(asctime)s - %(message)s'
-	#logging.basicConfig(filename='example.log',level=logging.DEBUG,
-	#format = LOG_FORMAT)
-	#logger = logging.getLogger('MyLogger')
-	#logger.debug('hello again')
-
-	#register()
+	#function in controller
 	startBank()
 
 if __name__ == '__main__':
